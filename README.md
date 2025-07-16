@@ -1,18 +1,97 @@
-# ⚡ W Safe - A Women Safety Application
+W Safe - A Women Safety Application
 ## _Feel Safe Everywhere_
 
-W-Safe is a comprehensive women safety application designed to empower and protect women in times of distress. This Android application combines advanced features to provide a reliable safety solution. With W-Safe, women can feel more confident and secure, knowing that help is just a tap away. It is built using Java in Android Studio.
+W-Safe is a comprehensive women safety application designed to empower and protect women in times of distress. This Android application combines advanced features to provide a reliable safety solution. With W-Safe, women can feel more confident and secure, knowing that help is just a tap away. It is built using Java in Android Studio.The app enables users to quickly alert trusted contacts and share their real-time location during emergencies.
 
-## Full project code available with [Video Demo](www.youtube.com), [Report] and [PPT]
+Features
 
-### Screenshots
-Home Page | Helplines | Laws
-:------------------:|:-------------------:|:-------------------:
-![Home - screenshot](Media/Home.jpeg) | ![Helplines - screenshot](Media/Helpline.jpeg) | ![Laws - screenshot](Media/Laws.jpeg) 
+- **One-Tap SOS Alert**  
+  Instantly send an emergency alert to predefined contacts with your live location and a custom message.
 
-Laws Displayed | Contacts Adapter | Self Defense
-:------------------:|:-------------------:|:-------------------:
-![LawDisp - screenshot](Media/DisplayLaw.jpeg) | ![Contacts Adapt - screenshot](Media/AddContacts.jpeg) | ![self defense - screenshot](Media/SelfDefense.jpeg)
+- **Real-Time Location Sharing**  
+  Continuously share your live GPS location with trusted contacts during emergencies.
+
+- **Trusted Contacts Management**  
+  Add or remove emergency contacts who will be notified in distress situations.
+
+- **Location Tracking**  
+  Background service to track and share location without keeping the app open.
+
+- **Custom Alert Message**  
+  Customize the emergency message to inform contacts about your situation.
+
+- **Voice Activation (Optional)**  
+  Trigger emergency alerts using voice commands or keywords.
+
+- **Data Privacy & Security**  
+  All personal data is stored securely and shared only with trusted contacts.
+
+ Technologies Used
+
+- **Frontend**: Java (Android Studio)
+- **Backend (Optional)**: Firebase Realtime Database or Firestore
+- **Location Services**: Google Maps API, Android LocationManager
+- **Push Notifications**: Firebase Cloud Messaging (FCM)
+- **Authentication**: Firebase Auth (optional)
+- **Design**: XML, Material Design Components
+
+ Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/wsafe-app.git
+   cd wsafe-app
+Open in Android Studio
+
+Open Android Studio
+
+Select "Open an existing project" and choose the cloned folder
+
+Set Up Firebase (if used)
+
+Create a Firebase project
+
+Download google-services.json and place it in app/ directory
+
+Enable required services (Authentication, Realtime Database, FCM)
+
+Run the App
+
+Connect your Android device or start an emulator
+
+Click Run
+
+Project Structure
+css
+Copy
+Edit
+WSafe/
+│
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+├── google-services.json
+├── build.gradle
+└── README.md
+
+
+Future Enhancements
+SMS-based alerts for non-internet zones
+Hidden audio/video recording during emergency
+Wearable device support (e.g., smartwatches)
+Emergency history and analytics
+Nearby police station locator
+License
+
+Acknowledgements
+Google Maps Platform
+Firebase
+Android Developer Docs
+
+
 
 ### Key Features
 - Shake Detector: Trigger emergency actions by shaking the device 5 times, such as sending SOS alerts and activating the siren.
@@ -25,11 +104,6 @@ Laws Displayed | Contacts Adapter | Self Defense
 - National Helplines: Directly call 5 national helpline numbers for immediate support and guidance.
 - Panic button: Emergency Calling to a registered mobile number.
 
-### Installation
-- Clone the repository: git clone https://github.com/your-username/w-safe.git
-- Open the project in Android Studio.
-- Build and run the application on your Android device or emulator.
-
 ### Usage
 1. Launch the W-Safe application on your Android device.
 2. Grant Permissions and Register Emergency contacts. 
@@ -39,58 +113,3 @@ Laws Displayed | Contacts Adapter | Self Defense
 6. Stay aware of nearby police stations and hospitals using the respective features.
 7. Refer to the women safety laws and self-defense videos for additional support and knowledge.
 
-### Contributing
-We welcome contributions to enhance the functionality and usability of W-Safe. To contribute, follow these steps:
-
-0. Star <a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" title="this">this</a> repository.
-
-1. Fork <a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" title="this">this</a> repository.
-
-2. Clone the forked repository.
-```css
-git clone https://github.com/<your-github-username>/WSafe-Women-Safety-Application
-```
-  
-3. Navigate to the project directory.
-```py
-cd WSafe-Women-Safety-Application
-```
-
-4. Create a new branch.
-```css
-git checkout -b <your_branch_name>
-```
-
-5. Make changes.
-
-6. Stage your changes and commit
-```css
-git add -A
-
-git commit -m "<your_commit_message>"
-```
-
-7. Push your local commits to the remote repo.
-```css
-git push -u origin <your_branch_name>
-```
-
-8. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `develop` !
-
-9. Congratulations! 🎉 Sit and relax, you've made your contribution. ✌️ ❤️ 💥
-
-
-### Fork the repository.
-1. Create a new branch: git checkout -b feature/your-feature-name
-2. Make your changes and commit them: git commit -m 'Add some feature'
-3. Push the changes to your branch: git push origin feature/your-feature-name
-4. Submit a pull request.
-
-#### Prerequisites :
-- Android Studio
-- Java
-- XML
-
-## Build and Run Application
-
-###### WSafe - A Women Safety Application 
